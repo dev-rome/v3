@@ -8,14 +8,11 @@ interface LayoutProps {
 function Layout({ children }: LayoutProps) {
   return (
     <section className="grid grid-cols-12">
-      <div className="hidden sm:block col-span-1">
+      <div className="hidden md:block col-span-1">
         <NavMenu />
       </div>
-      <div className="col-start-2 sm:col-start-4 col-span-8 pt-20">
+      <div className="col-start-1 col-span-12 md:col-start-2 pt-20 px-4 md:pl-24">
         {children}
-      </div>
-      <div className="col-start-12 flex items-start pt-8">
-        <ThemeToogle />
       </div>
     </section>
   );
