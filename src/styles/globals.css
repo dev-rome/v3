@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.typed-cursor {
+    @apply text-[#0D4373] dark:text-[#7AB9F0]
+  }
