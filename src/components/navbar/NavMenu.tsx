@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import Link from "next/link";
 
-type NavigationItem = {
+interface NavigationItem {
   title: string;
   icon: React.ReactNode;
   href: string;
@@ -34,7 +34,7 @@ const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
 const Navmenu = () => {
   return (
     <nav className="flex h-screen">
-      <div className="w-44 dark:bg-[#7AB9F0] bg-[#0D4373] flex flex-col justify-between">
+      <div className="fixed top-0 h-full w-36 dark:bg-[#7AB9F0] bg-[#0D4373] flex flex-col justify-between">
         <div>
           <div className="flex items-center justify-center mt-8">
             <p className="text-white">JH</p>

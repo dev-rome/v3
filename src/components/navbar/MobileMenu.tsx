@@ -3,7 +3,7 @@ import { motion, Variants } from "framer-motion";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { FaHome, FaUser, FaBriefcase, FaEnvelope } from "react-icons/fa";
 
-type NavItem = {
+interface NavItem {
   target: string;
   icon: React.ReactNode;
 };
@@ -69,7 +69,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="sm:hidden fixed bottom-4 right-4">
+    <div className="md:hidden fixed bottom-4 right-4">
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
