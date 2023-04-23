@@ -6,7 +6,7 @@ import { FaHome, FaUser, FaBriefcase, FaEnvelope } from "react-icons/fa";
 interface NavItem {
   target: string;
   icon: React.ReactNode;
-};
+}
 
 const navItems: NavItem[] = [
   {
@@ -69,7 +69,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="md:hidden fixed bottom-4 right-4">
+    <nav className="md:hidden fixed bottom-4 right-4">
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -79,24 +79,24 @@ const MobileMenu = () => {
         <button className="p-3 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-white">
           {isOpen ? <RiCloseLine size={24} /> : <RiMenu3Line size={24} />}
         </button>
-        <motion.div
+        <motion.ul
           className="absolute bottom-12 right-4 flex items-center gap-4"
           variants={circleVariants}
           animate={isOpen ? "open" : "closed"}
         >
           {navItems.map((item, index) => (
-            <motion.button
+            <motion.li
               key={index}
-              className="p-2 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-white"
+              className="p-2 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-white cursor-pointer"
               onClick={() => handleMenuItemClick(item.target)}
               variants={itemVariants}
             >
-              {item.icon}
-            </motion.button>
+              <a className="flex items-center">{item.icon}</a>
+            </motion.li>
           ))}
-        </motion.div>
+        </motion.ul>
       </motion.div>
-    </div>
+    </nav>
   );
 };
 
