@@ -1,7 +1,7 @@
+import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import Typed from "typed.js";
 
 function Hero() {
   const typedRef = useRef<HTMLDivElement>(null);
@@ -18,8 +18,9 @@ function Hero() {
       typed.destroy();
     };
   }, []);
+
   return (
-    <section className="pt-8 pb-64" id="home">
+    <section id="home" className="pt-8 pb-64">
       <h1 className="text-[#0D4373] dark:text-[#7AB9F0] mb-2 text-md">
         Hi, my name is
       </h1>
