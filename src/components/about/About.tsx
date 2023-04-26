@@ -1,12 +1,12 @@
-import AboutTechList from "./AboutTechList";
 import { AboutTechData } from "./AboutTechData";
 import { FaAngleRight } from "react-icons/fa";
+import AboutTechList from "./AboutTechList";
 import Image from "next/image";
 import SelfImage from "/public/images/jh.jpg";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" className="pb-64">
       <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2">
         About Me
       </h2>
