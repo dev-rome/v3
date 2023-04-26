@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import Link from "next/link";
+import { useState } from "react";
 import { motion, Variants } from "framer-motion";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { FaHome, FaUser, FaBriefcase, FaEnvelope } from "react-icons/fa";
@@ -8,33 +9,34 @@ interface NavItem {
   icon: React.ReactNode;
 }
 
-const navItems: NavItem[] = [
-  {
-    target: "#home",
-    icon: <FaHome size={24} />,
-  },
-  {
-    target: "#about",
-    icon: <FaUser size={24} />,
-  },
-  {
-    target: "#portfolio",
-    icon: <FaBriefcase size={24} />,
-  },
-  {
-    target: "#contact",
-    icon: <FaEnvelope size={24} />,
-  },
-];
-
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const navItems: NavItem[] = [
+    {
+      target: "#home",
+      icon: <FaHome size={24} />,
+    },
+    {
+      target: "#about",
+      icon: <FaUser size={24} />,
+    },
+    {
+      target: "#portfolio",
+      icon: <FaBriefcase size={24} />,
+    },
+    {
+      target: "#contact",
+      icon: <FaEnvelope size={24} />,
+    },
+  ];
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleMenuItemClick = (target: string) => {
+  const handleMenuItemClick = (e: React.MouseEvent, target: string) => {
+    e.preventDefault();
     toggleMenu();
     const element = document.querySelector(target);
     element?.scrollIntoView({ behavior: "smooth" });
@@ -88,10 +90,15 @@ const MobileMenu = () => {
             <motion.li
               key={index}
               className="p-2 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-white cursor-pointer"
-              onClick={() => handleMenuItemClick(item.target)}
               variants={itemVariants}
             >
-              <a className="flex items-center">{item.icon}</a>
+              <Link
+                href={item.target}
+                className="flex items-center"
+                onClick={(e) => handleMenuItemClick(e, item.target)}
+              >
+                {item.icon}
+              </Link>
             </motion.li>
           ))}
         </motion.ul>
