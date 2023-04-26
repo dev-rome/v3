@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
+import ThemeToogle from "@/components/ThemeToggle";
+import MobileMenu from "@/components/navbar/MobileMenu";
 import Hero from "@/components/hero/Hero";
 import About from "@/components/about/About";
-import MobileMenu from "@/components/navbar/MobileMenu";
-import ThemeToogle from "@/components/ThemeToggle";
+import Portfolio from "@/components/portfolio/Portfolio";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
         <MobileMenu />
         <Hero />
         <About />
+        <Portfolio />
       </Layout>
     </motion.div>
   );
