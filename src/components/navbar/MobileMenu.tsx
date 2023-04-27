@@ -37,7 +37,6 @@ const MobileMenu = () => {
 
   const handleMenuItemClick = (e: React.MouseEvent, target: string) => {
     e.preventDefault();
-    toggleMenu();
     const element = document.querySelector(target);
     element?.scrollIntoView({ behavior: "smooth" });
   };
@@ -71,7 +70,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <nav className="md:hidden fixed bottom-4 right-4">
+    <nav className="md:hidden fixed bottom-4 right-4 z-50">
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -82,7 +81,7 @@ const MobileMenu = () => {
           {isOpen ? <RiCloseLine size={24} /> : <RiMenu3Line size={24} />}
         </button>
         <motion.ul
-          className="absolute bottom-12 right-4 flex items-center gap-4"
+          className="absolute bottom-12 right-10 flex items-center gap-4"
           variants={circleVariants}
           animate={isOpen ? "open" : "closed"}
         >
