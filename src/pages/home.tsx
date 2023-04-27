@@ -5,6 +5,7 @@ import MobileMenu from "@/components/navbar/MobileMenu";
 import Hero from "@/components/hero/Hero";
 import About from "@/components/about/About";
 import Portfolio from "@/components/portfolio/Portfolio";
+import Contact from "@/components/contact/Contact";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
         <Hero />
         <About />
         <Portfolio />
+        <Contact />
       </Layout>
     </motion.div>
   );
