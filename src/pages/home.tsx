@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import Layout from "@/components/Layout";
 import ThemeToogle from "@/components/ThemeToggle";
 import MobileMenu from "@/components/navbar/MobileMenu";
@@ -9,23 +10,29 @@ import Contact from "@/components/contact/Contact";
 
 function Home() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        duration: 1,
-        ease: "easeInOut",
-      }}
-    >
-      <Layout>
-      <ThemeToogle />
-        <MobileMenu />
-        <Hero />
-        <About />
-        <Portfolio />
-        <Contact />
-      </Layout>
-    </motion.div>
+    <>
+      <Head>
+        <title>Jerome Haynes</title>
+      </Head>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          duration: 1,
+          ease: "easeInOut",
+        }}
+      >
+        <Layout>
+          <ThemeToogle />
+          <MobileMenu />
+          <Hero />
+          <About />
+          <Portfolio />
+          <Contact />
+        </Layout>
+      </motion.div>
+    </>
   );
 }
 
