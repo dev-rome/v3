@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaEnvelope } from "react-icons/fa";
 
-function Contact() {
+export default function Contact() {
   return (
     <section id="contact" className="pb-10">
       <div className="text-center">
@@ -30,5 +30,3 @@ function Contact() {
     </section>
   );
 }
-
-export default Contact;

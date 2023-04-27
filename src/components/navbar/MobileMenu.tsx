@@ -9,7 +9,7 @@ interface NavItem {
   icon: React.ReactNode;
 }
 
-const MobileMenu = () => {
+export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems: NavItem[] = [
@@ -105,5 +105,3 @@ const MobileMenu = () => {
     </nav>
   );
 };
-
-export default MobileMenu;

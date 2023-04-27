@@ -14,7 +14,7 @@ interface NavigationItem {
   target: string;
 }
 
-const NavMenu = () => {
+export default function NavMenu() {
   const navigationItems: NavigationItem[] = [
     { title: "Home", icon: <FaHome />, target: "#home" },
     { title: "About", icon: <FaUser />, target: "#about" },
@@ -24,7 +24,7 @@ const NavMenu = () => {
 
   const handleMenuItemClick = (target: string) => {
     const element = document.querySelector(target);
-    element?.scrollIntoView({ behavior: "smooth" })
+    element?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -77,6 +77,4 @@ const NavMenu = () => {
       </div>
     </nav>
   );
-};
-
-export default NavMenu;
+}

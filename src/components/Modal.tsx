@@ -15,7 +15,7 @@ interface ModalProps {
   onClose: () => void;
 }
 
-const Modal = ({ project, onClose }: ModalProps) => {
+export default function Modal({ project, onClose }: ModalProps) {
   return (
     <motion.div
       className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-70 flex items-center justify-center z-10 px-4 sm:px-0"
@@ -59,6 +59,4 @@ const Modal = ({ project, onClose }: ModalProps) => {
       </motion.div>
     </motion.div>
   );
-};
-
-export default Modal;
+}

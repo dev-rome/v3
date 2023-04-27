@@ -11,12 +11,12 @@ interface PortfolioItemProps {
   showReadMore: boolean;
 }
 
-const PortfolioItem = ({
+export default function PortfolioItem({
   project,
   onClick,
   onImageClick,
   showReadMore,
-}: PortfolioItemProps) => {
+}: PortfolioItemProps) {
   return (
     <div className="relative overflow-hidden cursor-pointer">
       <Image
@@ -45,6 +45,4 @@ const PortfolioItem = ({
       )}
     </div>
   );
-};
-
-export default PortfolioItem;
+}

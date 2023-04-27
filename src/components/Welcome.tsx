@@ -6,7 +6,7 @@ interface WelcomeProps {
   onEnterClick: () => void;
 }
 
-function Welcome({ onEnterClick }: WelcomeProps) {
+export default function Welcome({ onEnterClick }: WelcomeProps) {
   return (
     <section className="h-screen grid grid-cols-12">
       <div className="pt-6 col-start-11">
@@ -37,5 +37,3 @@ function Welcome({ onEnterClick }: WelcomeProps) {
     </section>
   );
 }
-
-export default Welcome;

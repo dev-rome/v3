@@ -5,7 +5,7 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 
-function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: LayoutProps) {
   return (
     <section className="grid grid-cols-12">
       <div className="hidden md:block col-span-1">
@@ -17,5 +17,3 @@ function Layout({ children }: LayoutProps) {
     </section>
   );
 }
-
-export default Layout;

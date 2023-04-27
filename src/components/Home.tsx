@@ -7,7 +7,7 @@ import About from "@/components/about/About";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Contact from "@/components/contact/Contact";
 
-function Home() {
+export default function Home() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -28,5 +28,3 @@ function Home() {
     </motion.div>
   );
 }
-
-export default Home;

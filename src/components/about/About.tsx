@@ -4,7 +4,7 @@ import AboutTechList from "./AboutTechList";
 import Image from "next/image";
 import SelfImage from "/public/images/jh.jpg";
 
-function About() {
+export default function About() {
   return (
     <section id="about" className="pb-32 lg:pb-64">
       <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2">
@@ -13,9 +13,9 @@ function About() {
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-12 md:col-span-7">
           <p className="text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
-            My passion for the web sparked in 2018 when I completed my
-            first course with Codecademy Programming with Python. Completing
-            that course sparked a passion for learning and growth.
+            My passion for the web sparked in 2018 when I completed my first
+            course with Codecademy Programming with Python. Completing that
+            course sparked a passion for learning and growth.
           </p>
           <p className="text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
             I also finished Udacity course Intro to Programming Nanodegree,
@@ -60,5 +60,3 @@ function About() {
     </section>
   );
 }
-
-export default About;

@@ -4,7 +4,7 @@ import { PortfolioData } from "./PortfolioData";
 import PortfolioItem from "./PortfolioItem";
 import Modal from "../Modal";
 
-function Portfolio() {
+export default function Portfolio() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
   const [showReadMoreIndex, setShowReadMoreIndex] = useState<number | null>(null);
 
@@ -54,5 +54,3 @@ function Portfolio() {
     </section>
   );
 }
-
-export default Portfolio;

@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-function Hero() {
+export default function Hero() {
   const typedRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -72,5 +72,3 @@ function Hero() {
     </section>
   );
 }
-
-export default Hero;

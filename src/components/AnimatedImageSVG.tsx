@@ -5,7 +5,7 @@ interface ImageProps {
   height: number;
 }
 
-const AnimatedImageSVG = ({ width, height }: ImageProps) => {
+export default function AnimatedImageSVG({ width, height }: ImageProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -218,5 +218,3 @@ const AnimatedImageSVG = ({ width, height }: ImageProps) => {
     </svg>
   );
 };
-
-export default AnimatedImageSVG;
