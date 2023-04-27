@@ -32,7 +32,7 @@ const NavMenu = () => {
       <div className="fixed top-0 h-full w-36 dark:bg-[#7AB9F0] bg-[#0D4373] flex flex-col justify-between">
         <div>
           <div className="flex items-center justify-center mt-8">
-            <p className="text-white rounded-full border-white border p-8">
+            <p className="text-[#f8f9fa] rounded-full border-white border p-8">
               JH
             </p>
           </div>
@@ -61,7 +61,7 @@ const NavMenu = () => {
             href="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white mr-4"
+            className="text-[#f8f9fa] mr-4"
           >
             <FaGithub size={20} />
           </Link>
@@ -69,7 +69,7 @@ const NavMenu = () => {
             href="https://linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white"
+            className="text-[#f8f9fa]"
           >
             <FaLinkedin size={20} />
           </Link>

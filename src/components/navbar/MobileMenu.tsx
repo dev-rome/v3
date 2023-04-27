@@ -78,7 +78,7 @@ const MobileMenu = () => {
         exit={{ opacity: 0, scale: 0 }}
         onClick={toggleMenu}
       >
-        <button className="p-3 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-white">
+        <button className="p-3 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-[#f8f9fa]">
           {isOpen ? <RiCloseLine size={24} /> : <RiMenu3Line size={24} />}
         </button>
         <motion.ul
@@ -89,7 +89,7 @@ const MobileMenu = () => {
           {navItems.map((item, index) => (
             <motion.li
               key={index}
-              className="p-2 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-white cursor-pointer"
+              className="p-2 rounded-full dark:bg-[#7AB9F0] bg-[#0D4373] text-[#f8f9fa] cursor-pointer"
               variants={itemVariants}
             >
               <Link
