@@ -1,10 +1,17 @@
-import { motion } from "framer-motion";
+import { useState } from "react";
 import Head from "next/head";
-import Link from "next/link";
-import AnimatedImageSVG from "@/components/AnimatedImageSVG";
-import ThemeToogle from "@/components/ThemeToggle";
+import Welcome from "@/components/Welcome";
+import Home from "@/components/Home";
+
+
 
 export default function WelcomePage() {
+  const [showWelcome, setShowWelcome] = useState(true);
+
+  const handleEnterClick = () => {
+    setShowWelcome(false);
+  };
+
   return (
     <>
       <Head>
@@ -16,32 +23,11 @@ export default function WelcomePage() {
         <meta name="author" content="Jerome Haynes" />
       </Head>
 
-      <section className="h-screen grid grid-cols-12">
-        <div className="pt-6 col-start-11">
-          <ThemeToogle />
-        </div>
-        <div className="col-span-12 flex flex-col items-center gap-5">
-          <AnimatedImageSVG width={400} height={400} />
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            initial={{ opacity: 0 }}
-            animate={{
-              opacity: 1,
-              transition: {
-                duration: 0.5,
-                delay: 3.9,
-              },
-            }}
-          >
-            <Link href="/home">
-              <button className="bg-[#0D4373] dark:bg-[#7AB9F0] text-white rounded-sm py-1 px-5">
-                Enter
-              </button>
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+      {showWelcome ? (
+        <Welcome onEnterClick={handleEnterClick} />
+      ) : (
+       <Home />
+      )}
     </>
   );
 }
