@@ -13,8 +13,7 @@ function About() {
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-12 md:col-span-7">
           <p className="text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
-            Hello! my name is Jerome, a software engineer in New York. My
-            passion for web development sparked in 2018 when I completed my
+            My passion for the web sparked in 2018 when I completed my
             first course with Codecademy Programming with Python. Completing
             that course sparked a passion for learning and growth.
           </p>
