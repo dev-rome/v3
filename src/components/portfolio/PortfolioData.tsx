@@ -29,4 +29,14 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/Gameoverflow",
     live: "https://guarded-plateau-67104.herokuapp.com/",
   },
+  {
+    id: 4,
+    src: "/images/profolio.png",
+    alt: "Pro-folio",
+    title: "Pro-folio",
+    description:
+      "Pro-folio: Personal project management application that will create a way for our team, as well as other developers, to market themselves through an app designed to showcase your projects all on one main page built using the MERN stack.",
+    github: "https://github.com/dev-rome/project3_frontend",
+    live: "https://pro-folio-njt.netlify.app/",
+  },
 ];
