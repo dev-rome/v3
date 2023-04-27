@@ -20,7 +20,7 @@ function Hero() {
   }, []);
 
   return (
-    <section id="home" className="pt-8 pb-64">
+    <section id="home" className="pt-8 pb-32 lg:pb-64">
       <h1 className="text-[#0D4373] dark:text-[#7AB9F0] mb-2 text-md">
         Hi, my name is
       </h1>

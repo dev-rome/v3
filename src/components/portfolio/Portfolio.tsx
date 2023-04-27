@@ -16,7 +16,7 @@ function Portfolio() {
   };
 
   return (
-    <section id="portfolio" className="pb-64">
+    <section id="portfolio" className="pb-32 lg:pb-64">
       <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2">
         Portfolio
       </h2>
