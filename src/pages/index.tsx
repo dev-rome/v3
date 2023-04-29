@@ -1,17 +1,7 @@
-import { useState } from "react";
 import Head from "next/head";
-import Welcome from "@/components/Welcome";
-import Home from "@/components/Home";
+import WelcomePage from "@/components/WelcomePage";
 
-
-
-export default function WelcomePage() {
-  const [showWelcome, setShowWelcome] = useState(true);
-
-  const handleEnterClick = () => {
-    setShowWelcome(false);
-  };
-
+export default function Welcome() {
   return (
     <>
       <Head>
@@ -23,11 +13,7 @@ export default function WelcomePage() {
         <meta name="author" content="Jerome Haynes" />
       </Head>
 
-      {showWelcome ? (
-        <Welcome onEnterClick={handleEnterClick} />
-      ) : (
-       <Home />
-      )}
+      <WelcomePage />
     </>
   );
 }
