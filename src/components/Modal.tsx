@@ -44,16 +44,16 @@ export default function Modal({ project, onClose }: ModalProps) {
           </h2>
           <p className="text-[#212529] mb-2">{project.description}</p>
           <div className="flex gap-2">
-            <Link
+            <a
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="text-lg text-[#212529] hover:text-[#0D4373] hover:dark:text-[#7AB9F0]" />
-            </Link>
-            <Link href={project.live} target="_blank" rel="noopener noreferrer">
+            </a>
+            <a href={project.live} target="_blank" rel="noopener noreferrer">
               <FaExternalLinkAlt className="text-lg text-[#212529] hover:text-[#0D4373] hover:dark:text-[#7AB9F0]" />
-            </Link>
+            </a>
           </div>
         </>
       </motion.div>
