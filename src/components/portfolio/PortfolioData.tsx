@@ -1,6 +1,16 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/timber&hatchet.png",
+    alt: "Timber and Hatchet",
+    title: "Timber and Hatchet",
+    description:
+      "Timber & Hatchet is a company that hires nearshore engineers to help companines achieve their golas through software improvements.",
+    github: "https://github.com/dev-rome/Website-Project-v1",
+    live: "https://calm-snickerdoodle-a19fcd.netlify.app/",
+  },
+  {
+    id: 2,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
@@ -10,7 +20,7 @@ export const PortfolioData = [
     live: "https://dev-rome.github.io/",
   },
   {
-    id: 2,
+    id: 3,
     src: "/images/tenant-estate.png",
     alt: "Tenant Estate",
     title: "Tenant Estate",
@@ -20,7 +30,7 @@ export const PortfolioData = [
     live: "https://enigmatic-anchorage-66839.herokuapp.com/buy",
   },
   {
-    id: 3,
+    id: 4,
     src: "/images/gameoverflow.png",
     alt: "GameOverflow",
     title: "GameOverflow",
@@ -30,7 +40,7 @@ export const PortfolioData = [
     live: "https://guarded-plateau-67104.herokuapp.com/",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/profolio.png",
     alt: "Pro-folio",
     title: "Pro-folio",
