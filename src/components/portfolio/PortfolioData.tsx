@@ -5,7 +5,7 @@ export const PortfolioData = [
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
     description:
-      "Timber & Hatchet is a company that hires nearshore engineers to help companines achieve their golas through software improvements.",
+      "Timber & Hatchet is a company that hires nearshore engineers to help companies achieve their goals through software improvements.",
     github: "https://github.com/dev-rome/Website-Project-v1",
     live: "https://calm-snickerdoodle-a19fcd.netlify.app/",
   },
