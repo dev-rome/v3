@@ -7,7 +7,7 @@ export const PortfolioData = [
     description:
       "Timber & Hatchet is a company that hires nearshore engineers to help companies achieve their goals through software improvements.",
     github: "https://github.com/dev-rome/Website-Project-v1",
-    live: "astro-website-v1.netlify.app",
+    live: "https://astro-website-v1.netlify.app",
   },
   {
     id: 2,
