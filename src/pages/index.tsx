@@ -12,7 +12,6 @@ export default function Welcome() {
         />
         <meta name="author" content="Jerome Haynes" />
       </Head>
-
       <WelcomePage />
     </>
   );
