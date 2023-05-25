@@ -7,7 +7,7 @@ export const PortfolioData = [
     description:
       "Prompts is a web application that allows users to create, read, update, and delete prompts. Users can also create an account and save their favorite prompts.",
     github: "https://github.com/dev-rome/Prompts",
-    live: "https://prompts-4tx3suxsa-dev-rome.vercel.app/",
+    live: "https://prompts-b27f7d6gk-dev-rome.vercel.app/",
   },
   {
     id: 2,
