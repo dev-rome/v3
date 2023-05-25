@@ -9,8 +9,8 @@ interface ModalProps {
     alt: string;
     title: string;
     description: string;
-    github: string;
-    live: string;
+    github?: string;
+    live?: string;
   };
   onClose: () => void;
 }
