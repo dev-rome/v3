@@ -21,6 +21,15 @@ export const PortfolioData = [
   },
   {
     id: 3,
+    src: "/images/todo-app.png",
+    alt: "Todo App",
+    title: "Todo App",
+    description:
+      "This project is a Todo application built with Next.js, TypeScript, and Tailwind CSS. It is a personal project aimed at mastering Next.js and TypeScript through practical implementation.",
+    github: "https://github.com/dev-rome/NextJS-Todo-App",
+  },
+  {
+    id: 4,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
@@ -30,7 +39,7 @@ export const PortfolioData = [
     live: "https://dev-rome.github.io/",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/tenant-estate.png",
     alt: "Tenant Estate",
     title: "Tenant Estate",
@@ -40,7 +49,7 @@ export const PortfolioData = [
     live: "https://enigmatic-anchorage-66839.herokuapp.com/buy",
   },
   {
-    id: 5,
+    id: 6,
     src: "/images/gameoverflow.png",
     alt: "GameOverflow",
     title: "GameOverflow",
@@ -50,7 +59,7 @@ export const PortfolioData = [
     live: "https://guarded-plateau-67104.herokuapp.com/",
   },
   {
-    id: 6,
+    id: 7,
     src: "/images/profolio.png",
     alt: "Pro-folio",
     title: "Pro-folio",
