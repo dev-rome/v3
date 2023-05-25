@@ -31,4 +31,8 @@ export const AboutTechData = [
     id: 8,
     tech: "Express",
   },
+  {
+    id: 9,
+    tech: "TypeScript",
+  },
 ];
