@@ -20,9 +20,8 @@ export default function PortfolioItem({
   return (
     <div className="relative overflow-hidden cursor-pointer">
       <Image
-        className="mx-auto"
-        width={500}
-        height={500}
+        width={1000}
+        height={1000}
         src={project.src}
         alt={project.alt}
         onClick={onImageClick}
