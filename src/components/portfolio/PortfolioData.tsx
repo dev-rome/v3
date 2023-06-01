@@ -1,6 +1,16 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/hbo-stream.png",
+    alt: "HBO Stream",
+    title: "HBO Stream",
+    description:
+      "HBO Stream is a web application that allows users to search for movies and TV shows. Users can also create an account and save their favorite movies and TV shows",
+    github: "https://github.com/dev-rome/HBO-Stream",
+    live: "https://aesthetic-alpaca-95ce00.netlify.app",
+  },
+  {
+    id: 2,
     src: "/images/prompts.png",
     alt: "Prompts",
     title: "Prompts",
@@ -10,7 +20,7 @@ export const PortfolioData = [
     live: "https://prompts-bmb9iq3xt-dev-rome.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -20,7 +30,7 @@ export const PortfolioData = [
     live: "https://astro-website-v1.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     src: "/images/todo-app.png",
     alt: "Todo App",
     title: "Todo App",
@@ -29,7 +39,7 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/NextJS-Todo-App",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
@@ -39,7 +49,7 @@ export const PortfolioData = [
     live: "https://dev-rome.github.io/",
   },
   {
-    id: 5,
+    id: 6,
     src: "/images/tenant-estate.png",
     alt: "Tenant Estate",
     title: "Tenant Estate",
@@ -49,7 +59,7 @@ export const PortfolioData = [
     live: "https://enigmatic-anchorage-66839.herokuapp.com/buy",
   },
   {
-    id: 6,
+    id: 7,
     src: "/images/gameoverflow.png",
     alt: "GameOverflow",
     title: "GameOverflow",
@@ -59,7 +69,7 @@ export const PortfolioData = [
     live: "https://guarded-plateau-67104.herokuapp.com/",
   },
   {
-    id: 7,
+    id: 8,
     src: "/images/profolio.png",
     alt: "Pro-folio",
     title: "Pro-folio",
