@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
-import ThemeToogle from "@/components/ThemeToggle";
 import MobileMenu from "@/components/navbar/MobileMenu";
 import Hero from "@/components/hero/Hero";
 import About from "@/components/about/About";
@@ -18,7 +17,6 @@ export default function HomePage() {
       }}
     >
       <Layout>
-        <ThemeToogle />
         <MobileMenu />
         <Hero />
         <About />

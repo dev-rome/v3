@@ -2,6 +2,7 @@ import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import ThemeToogle from "../ThemeToggle";
 
 export default function Hero() {
   const typedRef = useRef<HTMLDivElement>(null);
@@ -21,7 +22,8 @@ export default function Hero() {
 
   return (
     <section id="home" className="pt-8 pb-32 lg:pb-64">
-      <h1 className="text-[#0D4373] dark:text-[#7AB9F0] mb-2 text-md">
+      <ThemeToogle />
+      <h1 className="text-[#0D4373] dark:text-[#7AB9F0] mt-16 mb-2 text-md">
         Hi, my name is
       </h1>
       <h2 className="text-[#212529] dark:text-[#f8f9fa] text-2xl mb-1 md:text-4xl lg:mb-2 lg:text-5xl">
