@@ -1,7 +1,16 @@
+import { useState } from "react";
+
 import Head from "next/head";
 import WelcomePage from "@/components/WelcomePage";
+import HomePage from "@/components/HomePage";
 
 export default function Welcome() {
+  const [homeView, setHomeView] = useState(true);
+
+  const handleEnterClick = () => {
+    setHomeView(!homeView);
+  }
+
   return (
     <>
       <Head>
@@ -12,7 +21,12 @@ export default function Welcome() {
         />
         <meta name="author" content="Jerome Haynes" />
       </Head>
-      <WelcomePage />
+
+       {homeView ? (
+        <WelcomePage onClick={handleEnterClick} />
+      ) : (
+        <HomePage />
+      )}
     </>
   );
 }
