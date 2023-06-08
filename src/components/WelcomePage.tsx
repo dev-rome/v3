@@ -1,16 +1,19 @@
 import { motion } from "framer-motion";
-import Link from "next/link";
 import ThemeToogle from "@/components/ThemeToggle";
 import AnimatedImageSVG from "@/components/AnimatedImageSVG";
 
-export default function WelcomePage() {
+interface WelcomePageProps {
+  onClick: () => void;
+}
+
+export default function WelcomePage({ onClick }: WelcomePageProps) {
   return (
     <section className="h-screen grid grid-cols-12">
       <div className="pt-6 col-start-11">
         <ThemeToogle />
       </div>
       <div className="col-span-12 flex flex-col items-center gap-5">
-        <AnimatedImageSVG width={400} height={400} />
+        <AnimatedImageSVG width={350} height={350} />
         <motion.div
           whileHover={{ scale: 1.1 }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -23,11 +26,12 @@ export default function WelcomePage() {
             },
           }}
         >
-          <Link href="/home">
-            <button className="bg-[#0D4373] dark:bg-[#7AB9F0] text-white rounded-sm py-1 px-5">
-              Enter
-            </button>
-          </Link>
+          <button
+            className="bg-[#0D4373] dark:bg-[#7AB9F0] text-white rounded-sm py-1 px-5"
+            onClick={onClick}
+          >
+            Enter
+          </button>
         </motion.div>
       </div>
     </section>
