@@ -22,13 +22,13 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="pb-10">
+    <section id="contact" className="pb-20">
       <div className="text-center">
         <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2">
           Contact
         </h2>
         <form
-          action="https://formsubmit.co/haynesjerome@gmail.com"
+          action="https://formsubmit.co/593e40b10c51f855cece9725d655b1dd"
           method="POST"
           target="_blank"
           onSubmit={onSubmit}
