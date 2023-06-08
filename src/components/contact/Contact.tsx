@@ -87,7 +87,7 @@ export default function Contact() {
               />
               {errors.message && (
                 <span className="flex text-[#e03131] text-xs mt-1">
-                  {errors.message.type === "required" && "Email is required"}
+                  {errors.message.type === "required" && "Message is required"}
                   {errors.message.type === "maxLength" &&
                     "Max length is 1000 characters"}
                 </span>
