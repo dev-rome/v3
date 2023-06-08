@@ -20,6 +20,7 @@ export default function Contact() {
     if (!isValid) {
       e.preventDefault();
     }
+    reset();
   };
 
   return (
