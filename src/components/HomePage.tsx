@@ -4,6 +4,7 @@ import MobileMenu from "@/components/navbar/MobileMenu";
 import Hero from "@/components/hero/Hero";
 import About from "@/components/about/About";
 import Portfolio from "@/components/portfolio/Portfolio";
+import Testimonial from "./testimonial/Testimonial";
 import Contact from "@/components/contact/Contact";
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
         <Hero />
         <About />
         <Portfolio />
+        <Testimonial />
         <Contact />
       </Layout>
     </motion.div>

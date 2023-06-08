@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedin,
+  FaStar
 } from "react-icons/fa";
 
 interface NavigationItem {
@@ -19,6 +20,7 @@ export default function NavMenu() {
     { title: "Home", icon: <FaHome />, target: "#home" },
     { title: "About", icon: <FaUser />, target: "#about" },
     { title: "Portfolio", icon: <FaBriefcase />, target: "#portfolio" },
+    { title: "Testimonial", icon: <FaStar />, target: "#testimonial"},
     { title: "Contact", icon: <FaEnvelope />, target: "#contact" },
   ];
 
@@ -41,7 +43,7 @@ export default function NavMenu() {
               <li key={index} className="relative my-2 cursor-pointer">
                 <Link
                   href={item.target}
-                  className="block py-2 px-4 text-white text-lg rounded-lg hover:bg-blue-500 hover:bg-opacity-50 transition-colors duration-300 cursor-pointer"
+                  className="block py-2 px-4 text-white rounded-lg hover:bg-blue-500 hover:bg-opacity-50 transition-colors duration-300 cursor-pointer"
                   onClick={(e) => {
                     e.preventDefault();
                     handleMenuItemClick(item.target);
