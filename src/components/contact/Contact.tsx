@@ -78,7 +78,7 @@ export default function Contact() {
                   required: true,
                   maxLength: 1000,
                 })}
-                className="w-full bg-transparent border-b border-[#0D4373] dark:border-[#7AB9F0] placeholder:text-[#212529] placeholder:dark:text-[#f8f9fa] text-[#212529] dark:text-[#f8f9fa] focus:outline-none resize-none mt-8"
+                className="w-full bg-transparent border-b border-[#0D4373] dark:border-[#7AB9F0] placeholder:text-[#212529] placeholder:dark:text-[#f8f9fa] text-[#212529] dark:text-[#f8f9fa] focus:outline-none resize-none p-3 mt-8"
               />
               {errors.message && (
                 <span className="text-[#e03131] mt-1">
