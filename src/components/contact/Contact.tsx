@@ -11,6 +11,7 @@ export default function Contact() {
   const {
     register,
     trigger,
+    reset,
     formState: { errors },
   } = useForm<InputsProps>();
 
@@ -94,6 +95,7 @@ export default function Contact() {
                 className="text-white bg-[#0D4373] dark:bg-[#7AB9F0] py-1 px-3"
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                onClick={() => reset()}
               >
                 Sumbit
               </motion.button>
