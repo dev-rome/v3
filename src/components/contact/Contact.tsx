@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { FaEnvelope } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 
 interface InputsProps {
@@ -14,7 +13,7 @@ export default function Contact() {
     trigger,
     formState: { errors },
   } = useForm<InputsProps>();
-  
+
   const onSubmit = async (e: { preventDefault: () => void }) => {
     const isValid = await trigger();
     if (!isValid) {
