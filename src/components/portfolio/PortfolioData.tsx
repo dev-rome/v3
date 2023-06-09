@@ -5,7 +5,7 @@ export const PortfolioData = [
     alt: "HBO Stream",
     title: "HBO Stream",
     description:
-      "HBO Stream is a web application that allows users to search for movies and TV shows. Users can also create an account and save their favorite movies and TV shows.",
+      "HBO-Stream is a web application that allows you to browse and search for movies and TV shows using The Movie Database (TMDb) API. It provides a simple and convenient way to explore popular movies and TV shows.",
     github: "https://github.com/dev-rome/HBO-Stream",
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
