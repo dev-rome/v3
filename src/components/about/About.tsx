@@ -34,7 +34,7 @@ export default function About() {
           </p>
           <div className="row-start-2 col-span-10 md:col-span-6 lg:col-span-8">
             <h3 className="text-[#0D4373] dark:text-[#7AB9F0] text-sm mb-2">
-              Tech
+              Current Tech
             </h3>
             <ul className="grid grid-cols-3 mb-10 lg:mb-0">
               {AboutTechData.map((item) => {

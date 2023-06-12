@@ -5,7 +5,7 @@ export const AboutTechData = [
   },
   {
     id: 2,
-    tech: "Tailwind",
+    tech: "Tailwind CSS",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const AboutTechData = [
   },
   {
     id: 8,
-    tech: "Express",
+    tech: "Framer Motion",
   },
   {
     id: 9,
