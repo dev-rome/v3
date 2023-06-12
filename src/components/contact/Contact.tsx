@@ -45,6 +45,7 @@ export default function Contact() {
                     required: true,
                     maxLength: 100,
                   })}
+                  name="name"
                   className="w-full bg-transparent border-b border-[#0D4373] dark:border-[#7AB9F0] placeholder:text-[#212529] placeholder:dark:text-[#f8f9fa] text-[#212529] dark:text-[#f8f9fa] p-3 outline-none"
                 />
                 {errors.name && (
@@ -63,6 +64,7 @@ export default function Contact() {
                     required: true,
                     pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                   })}
+                  name="email"
                   className="w-full bg-transparent border-b border-[#0D4373] dark:border-[#7AB9F0] placeholder:text-[#212529] placeholder:dark:text-[#f8f9fa] text-[#212529] dark:text-[#f8f9fa] p-3 focus:outline-none"
                 />
                 {errors.email && (
@@ -84,6 +86,7 @@ export default function Contact() {
                   required: true,
                   maxLength: 1000,
                 })}
+                name="message"
                 className="w-full bg-transparent border-b border-[#0D4373] dark:border-[#7AB9F0] placeholder:text-[#212529] placeholder:dark:text-[#f8f9fa] text-[#212529] dark:text-[#f8f9fa] focus:outline-none resize-none p-3 mt-8"
               />
               {errors.message && (
