@@ -1,12 +1,9 @@
 import { motion } from "framer-motion";
 import ThemeToogle from "@/components/ThemeToggle";
 import AnimatedImageSVG from "@/components/AnimatedImageSVG";
+import Link from "next/link";
 
-interface WelcomePageProps {
-  onClick: () => void;
-}
-
-export default function WelcomePage({ onClick }: WelcomePageProps) {
+export default function WelcomePage() {
   return (
     <section className="h-screen grid grid-cols-12">
       <div className="pt-6 col-start-11">
@@ -26,12 +23,11 @@ export default function WelcomePage({ onClick }: WelcomePageProps) {
             },
           }}
         >
-          <button
-            className="bg-[#0D4373] dark:bg-[#7AB9F0] text-white rounded-sm py-1 px-5"
-            onClick={onClick}
-          >
-            Enter
-          </button>
+          <Link href="/home">
+            <button className="bg-[#0D4373] dark:bg-[#7AB9F0] text-white rounded-sm py-1 px-5">
+              Enter
+            </button>
+          </Link>
         </motion.div>
       </div>
     </section>

@@ -6,7 +6,7 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedin,
-  FaStar
+  FaStar,
 } from "react-icons/fa";
 
 interface NavigationItem {
@@ -20,7 +20,7 @@ export default function NavMenu() {
     { title: "Home", icon: <FaHome />, target: "#home" },
     { title: "About", icon: <FaUser />, target: "#about" },
     { title: "Portfolio", icon: <FaBriefcase />, target: "#portfolio" },
-    { title: "Testimonial", icon: <FaStar />, target: "#testimonial"},
+    { title: "Testimonial", icon: <FaStar />, target: "#testimonial" },
     { title: "Contact", icon: <FaEnvelope />, target: "#contact" },
   ];
 
@@ -34,9 +34,11 @@ export default function NavMenu() {
       <div className="fixed top-0 h-full w-36 dark:bg-[#7AB9F0] bg-[#0D4373] flex flex-col justify-between">
         <div>
           <div className="flex items-center justify-center mt-8">
-            <p className="text-[#f8f9fa] rounded-full border-white border p-8">
-              JH
-            </p>
+            <Link href="/">
+              <p className="text-[#f8f9fa] rounded-full border-white border p-8">
+                JH
+              </p>
+            </Link>
           </div>
           <ul className="mt-8 flex flex-col justify-center flex-grow">
             {navigationItems.map((item, index) => (
