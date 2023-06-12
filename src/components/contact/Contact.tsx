@@ -30,7 +30,7 @@ export default function Contact() {
           Contact
         </h2>
         <form
-          action="https://formsubmit.co/593e40b10c51f855cece9725d655b1dd"
+          action="https://formsubmit.co/info.devrome@gmail.com"
           method="POST"
           target="_blank"
           onSubmit={onSubmit}
