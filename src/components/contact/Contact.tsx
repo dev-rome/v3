@@ -11,7 +11,6 @@ export default function Contact() {
   const {
     register,
     trigger,
-    reset,
     formState: { errors },
   } = useForm<InputsProps>();
 
@@ -20,7 +19,6 @@ export default function Contact() {
     if (!isValid) {
       e.preventDefault();
     }
-    reset();
   };
 
   return (
@@ -30,7 +28,7 @@ export default function Contact() {
           Contact
         </h2>
         <form
-          action="https://formsubmit.co/info.devrome@gmail.com"
+          action="https://formsubmit.co/04154614d3f2650fdd64da0f6eec871b "
           method="POST"
           target="_blank"
           onSubmit={onSubmit}
