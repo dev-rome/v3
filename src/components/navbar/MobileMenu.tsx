@@ -2,7 +2,13 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion, Variants } from "framer-motion";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import { FaHome, FaUser, FaBriefcase, FaEnvelope } from "react-icons/fa";
+import {
+  FaHome,
+  FaUser,
+  FaBriefcase,
+  FaStar,
+  FaEnvelope,
+} from "react-icons/fa";
 
 interface NavItem {
   target: string;
@@ -24,6 +30,10 @@ export default function MobileMenu() {
     {
       target: "#portfolio",
       icon: <FaBriefcase size={24} />,
+    },
+    {
+      target: "#testimonial",
+      icon: <FaStar size={24} />,
     },
     {
       target: "#contact",
@@ -104,4 +114,4 @@ export default function MobileMenu() {
       </motion.div>
     </nav>
   );
-};
+}
