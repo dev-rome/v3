@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaStar,
   FaHandshake,
+  FaDownload,
 } from "react-icons/fa";
 
 interface NavigationItem {
@@ -62,12 +63,12 @@ export default function NavMenu() {
             ))}
           </ul>
         </div>
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-around mb-8">
           <a
             href="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#f8f9fa] mr-4"
+            className="text-[#f8f9fa]"
           >
             <FaGithub size={20} />
           </a>
@@ -78,6 +79,14 @@ export default function NavMenu() {
             className="text-[#f8f9fa]"
           >
             <FaLinkedin size={20} />
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1dVwaoytNqyRCs3aTIvLk80Uev5FJm7GvSvEc1rAOESY/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#f8f9fa]"
+          >
+            <FaDownload size={20} />
           </a>
         </div>
       </div>
