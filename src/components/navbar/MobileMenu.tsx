@@ -29,7 +29,7 @@ export default function MobileMenu() {
       icon: <FaUser size={24} />,
     },
     {
-      target: "services",
+      target: "#services",
       icon: <FaHandshake size={24} />,
     },
     {
