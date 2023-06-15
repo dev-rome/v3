@@ -1,6 +1,16 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/CarHub.png",
+    alt: "CarHub",
+    title: "CarHub",
+    description:
+    "CarHub is a web application that allows you to browse and search for cars using the rapidapi cars by API-Ninjas. It provides a simple and convenient way to explore popular cars.",
+    github: "https://github.com/dev-rome/Car-Showcase",
+    live: "https://car-showcase-2hjsy4mxb-dev-rome.vercel.app/",
+  },
+  {
+    id: 2,
     src: "/images/hbo-stream.png",
     alt: "HBO Stream",
     title: "HBO Stream",
@@ -10,7 +20,7 @@ export const PortfolioData = [
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     src: "/images/prompts.png",
     alt: "Prompts",
     title: "Prompts",
@@ -20,7 +30,7 @@ export const PortfolioData = [
     live: "https://prompts-3ayoti6gv-dev-rome.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -30,7 +40,7 @@ export const PortfolioData = [
     live: "https://astro-website-v1.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/todo-app.png",
     alt: "Todo App",
     title: "Todo App",
@@ -39,7 +49,7 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/NextJS-Todo-App",
   },
   {
-    id: 5,
+    id: 6,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
@@ -49,7 +59,7 @@ export const PortfolioData = [
     live: "https://dev-rome.github.io/",
   },
   {
-    id: 6,
+    id: 7,
     src: "/images/tenant-estate.png",
     alt: "Tenant Estate",
     title: "Tenant Estate",
@@ -59,7 +69,7 @@ export const PortfolioData = [
     live: "https://enigmatic-anchorage-66839.herokuapp.com/buy",
   },
   {
-    id: 7,
+    id: 8,
     src: "/images/gameoverflow.png",
     alt: "GameOverflow",
     title: "GameOverflow",
@@ -69,7 +79,7 @@ export const PortfolioData = [
     live: "https://guarded-plateau-67104.herokuapp.com/",
   },
   {
-    id: 8,
+    id: 9,
     src: "/images/profolio.png",
     alt: "Pro-folio",
     title: "Pro-folio",
