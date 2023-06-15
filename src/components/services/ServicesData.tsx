@@ -14,7 +14,7 @@ export const frontendServices = [
 
 export const fullStackServices = [
   {
-    title: "Full Stack Development",
+    title: "Full-Stack Development",
     features: [
       "Frontend Development (HTML, CSS, JavaScript)",
       "Responsive Web Design",
