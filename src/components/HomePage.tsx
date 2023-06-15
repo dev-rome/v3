@@ -6,6 +6,7 @@ import About from "@/components/about/About";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Testimonial from "./testimonial/Testimonial";
 import Contact from "@/components/contact/Contact";
+import Services from "@/components/services/Services";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
         <MobileMenu />
         <Hero />
         <About />
+        <Services />
         <Portfolio />
         <Testimonial />
         <Contact />
