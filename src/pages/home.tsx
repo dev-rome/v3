@@ -9,7 +9,7 @@ export default function Home() {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta charSet="UTF-8" />
         <meta name="language" content="english" />
-        <meta name="robots" content="index, follow" /> 
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Passionate Frontend/Software Engineer based in New York, leveraging the web to connect people, create amazing experiences, and turn ideas into reality. Explore my portfolio and let's achieve your goals together."
