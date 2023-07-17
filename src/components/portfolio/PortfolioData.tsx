@@ -1,16 +1,36 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/dice-game.png",
+    alt: "Dice Game",
+    title: "Dice Game",
+    description:
+      "The Dice Game is a simple game where two players take turns rolling a dice. The player with the highest score at the end of the game wins. This project demonstrates the use of JavaScript for creating an interactive web-based game.",
+    github: "https://github.com/dev-rome/Dice_Game",
+    live: "https://glittery-souffle-ec064a.netlify.app/",
+  },
+  {
+    id: 2,
+    src: "/images/guess-my-number.png",
+    alt: "Guess My Number",
+    title: "Guess My Number",
+    description:
+      "Number guessing game implemented using HTML, CSS, and JavaScript. Challenge yourself to guess a randomly generated number between 1 and 20.",
+    github: "https://github.com/dev-rome/Guess-My-Number",
+    live: "https://marvelous-baklava-f9e655.netlify.app/",
+  },
+  {
+    id: 3,
     src: "/images/CarHub.png",
     alt: "CarHub",
     title: "CarHub",
     description:
-    "CarHub is a web application that allows you to browse and search for cars using the rapidapi cars by API-Ninjas. It provides a simple and convenient way to explore popular cars.",
+      "CarHub is a web application that allows you to browse and search for cars using the rapidapi cars by API-Ninjas. It provides a simple and convenient way to explore popular cars.",
     github: "https://github.com/dev-rome/Car-Showcase",
     live: "https://car-showcase-2hjsy4mxb-dev-rome.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     src: "/images/hbo-stream.png",
     alt: "HBO Stream",
     title: "HBO Stream",
@@ -20,7 +40,7 @@ export const PortfolioData = [
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
   {
-    id: 3,
+    id: 5,
     src: "/images/prompts.png",
     alt: "Prompts",
     title: "Prompts",
@@ -30,7 +50,7 @@ export const PortfolioData = [
     live: "https://prompts-3ayoti6gv-dev-rome.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -40,7 +60,7 @@ export const PortfolioData = [
     live: "https://astro-website-v1.netlify.app",
   },
   {
-    id: 5,
+    id: 7,
     src: "/images/todo-app.png",
     alt: "Todo App",
     title: "Todo App",
@@ -49,7 +69,7 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/NextJS-Todo-App",
   },
   {
-    id: 6,
+    id: 8,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
@@ -59,7 +79,7 @@ export const PortfolioData = [
     live: "https://dev-rome.github.io/",
   },
   {
-    id: 7,
+    id: 9,
     src: "/images/tenant-estate.png",
     alt: "Tenant Estate",
     title: "Tenant Estate",
@@ -69,7 +89,7 @@ export const PortfolioData = [
     live: "https://enigmatic-anchorage-66839.herokuapp.com/buy",
   },
   {
-    id: 8,
+    id: 10,
     src: "/images/gameoverflow.png",
     alt: "GameOverflow",
     title: "GameOverflow",
@@ -79,7 +99,7 @@ export const PortfolioData = [
     live: "https://guarded-plateau-67104.herokuapp.com/",
   },
   {
-    id: 9,
+    id: 11,
     src: "/images/profolio.png",
     alt: "Pro-folio",
     title: "Pro-folio",
