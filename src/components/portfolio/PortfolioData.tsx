@@ -1,6 +1,16 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/little-lemon.png",
+    alt: "Little Lemon",
+    title: "Little Lemon",
+    description:
+      "Little Lemon is a captivating capstone Front-End restaurant website. It showcases Next.js, Tailwind CSS, and Typescript, along with unit testing using Jest. The project prioritizes accessibility with semantic HTML and ARIA attributes. It served as a pivotal project in the Meta Front-End Developer course.",
+    github: "https://github.com/dev-rome/Little-Lemon-restaurant",
+    live: "https://little-lemon-restaurant-eako.vercel.app/",
+  },
+  {
+    id: 2,
     src: "/images/dice-game.png",
     alt: "Dice Game",
     title: "Dice Game",
@@ -10,7 +20,7 @@ export const PortfolioData = [
     live: "https://glittery-souffle-ec064a.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     src: "/images/guess-my-number.png",
     alt: "Guess My Number",
     title: "Guess My Number",
@@ -20,7 +30,7 @@ export const PortfolioData = [
     live: "https://marvelous-baklava-f9e655.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     src: "/images/CarHub.png",
     alt: "CarHub",
     title: "CarHub",
@@ -30,7 +40,7 @@ export const PortfolioData = [
     live: "https://car-showcase-2hjsy4mxb-dev-rome.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/hbo-stream.png",
     alt: "HBO Stream",
     title: "HBO Stream",
@@ -40,7 +50,7 @@ export const PortfolioData = [
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     src: "/images/prompts.png",
     alt: "Prompts",
     title: "Prompts",
@@ -50,7 +60,7 @@ export const PortfolioData = [
     live: "https://prompts-3ayoti6gv-dev-rome.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -60,7 +70,7 @@ export const PortfolioData = [
     live: "https://astro-website-v1.netlify.app",
   },
   {
-    id: 7,
+    id: 8,
     src: "/images/todo-app.png",
     alt: "Todo App",
     title: "Todo App",
@@ -69,7 +79,7 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/NextJS-Todo-App",
   },
   {
-    id: 8,
+    id: 9,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
@@ -79,7 +89,7 @@ export const PortfolioData = [
     live: "https://dev-rome.github.io/",
   },
   {
-    id: 9,
+    id: 10,
     src: "/images/tenant-estate.png",
     alt: "Tenant Estate",
     title: "Tenant Estate",
@@ -89,7 +99,7 @@ export const PortfolioData = [
     live: "https://enigmatic-anchorage-66839.herokuapp.com/buy",
   },
   {
-    id: 10,
+    id: 11,
     src: "/images/gameoverflow.png",
     alt: "GameOverflow",
     title: "GameOverflow",
@@ -99,7 +109,7 @@ export const PortfolioData = [
     live: "https://guarded-plateau-67104.herokuapp.com/",
   },
   {
-    id: 11,
+    id: 12,
     src: "/images/profolio.png",
     alt: "Pro-folio",
     title: "Pro-folio",
