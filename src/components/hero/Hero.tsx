@@ -38,17 +38,13 @@ export default function Hero() {
         Developer
       </h2>
       <p className="md:max-w-3xl text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
-        I am a <strong>Frontend/Software Engineer</strong> experienced in
-        building web presence from the ground up.
-      </p>
-      <p className="md:max-w-3xl text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
         I have expertise in creating visually appealing websites and intuitive
         user interfaces. My skills include include{" "}
         <strong>HTML, CSS, JavaScript</strong>, <strong>React/Next.js</strong>,{" "}
         <strong>Framer Motion</strong>, <strong>MERN</strong>,{" "}
         <strong>Node.js</strong>, <strong>Python</strong>, and database
         management with <strong>PostgreSQL</strong> and <strong>MongoDB</strong>
-        . I am also experienced in customizing CMS platforms, particularly{" "}
+        . I am experienced in customizing CMS platforms, such as {" "}
         <strong>WordPress</strong>, for clients specific needs.
       </p>
 
