@@ -28,10 +28,10 @@ export default function MobileMenu() {
       target: "#about",
       icon: <FaUser size={24} />,
     },
-    {
-      target: "#services",
-      icon: <FaHandshake size={24} />,
-    },
+    // {
+    //   target: "#services",
+    //   icon: <FaHandshake size={24} />,
+    // },
     {
       target: "#portfolio",
       icon: <FaBriefcase size={24} />,
