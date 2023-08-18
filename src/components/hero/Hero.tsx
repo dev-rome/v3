@@ -45,7 +45,7 @@ export default function Hero() {
         <strong>Node.js</strong>, <strong>Python</strong>, and database
         management with <strong>PostgreSQL</strong> and <strong>MongoDB</strong>
         . I am experienced in customizing CMS platforms, such as {" "}
-        <strong>WordPress</strong>, for clients specific needs.
+        <strong>WordPress</strong>, for client&apos;s needs.
       </p>
 
       <div className="flex gap-5 text-white">
