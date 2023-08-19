@@ -27,7 +27,7 @@ export const PortfolioData = [
     description:
       "Prompts is a web app developed with Next.js, Tailwind CSS, JavaScript, MongoDB, and NextAuth.js. It enables users to manage prompts (CRUD) and save favorites by creating accounts.",
     github: "https://github.com/dev-rome/Prompts",
-    live: "https://prompts-3ayoti6gv-dev-rome.vercel.app/",
+    live: "https://prompts-dh3d5ui5f-dev-rome.vercel.app/",
   },
   {
     id: 4,
