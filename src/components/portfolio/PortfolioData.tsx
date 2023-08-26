@@ -1,7 +1,7 @@
 export const PortfolioData = [
   {
     id: 1,
-    src: "/images/Thread-Clone",
+    src: "/images/Thread-Clone.png",
     alt: "Threads-Clone",
     title: "Threads-Clone",
     description:
