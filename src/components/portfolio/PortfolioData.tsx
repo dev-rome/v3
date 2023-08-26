@@ -1,6 +1,16 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/Thread-Clone",
+    alt: "Threads-Clone",
+    title: "Threads-Clone",
+    description:
+      "Threads-Clone is a dynamic messaging platform reminiscent of Threads. Built with Next.js, TypeScript, MongoDB, and Tailwind CSS ",
+    github: "https://github.com/dev-rome/Threads-Clone",
+    live: "https://threads-clone-red-pi.vercel.app/",
+  },
+  {
+    id: 2,
     src: "/images/little-lemon.png",
     alt: "Little Lemon",
     title: "Little Lemon",
@@ -10,7 +20,7 @@ export const PortfolioData = [
     live: "https://little-lemon-restaurant-eako.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     src: "/images/CarHub.png",
     alt: "CarHub",
     title: "CarHub",
@@ -20,7 +30,7 @@ export const PortfolioData = [
     live: "https://car-showcase-2hjsy4mxb-dev-rome.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     src: "/images/prompts.png",
     alt: "Prompts",
     title: "Prompts",
@@ -30,7 +40,7 @@ export const PortfolioData = [
     live: "https://prompts-dh3d5ui5f-dev-rome.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -40,7 +50,7 @@ export const PortfolioData = [
     live: "https://astro-website-v1.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     src: "/images/hbo-stream.png",
     alt: "HBO Stream",
     title: "HBO Stream",
@@ -50,7 +60,7 @@ export const PortfolioData = [
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
   {
-    id: 6,
+    id: 7,
     src: "/images/dice-game.png",
     alt: "Dice Game",
     title: "Dice Game",
@@ -60,7 +70,7 @@ export const PortfolioData = [
     live: "https://glittery-souffle-ec064a.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     src: "/images/guess-my-number.png",
     alt: "Guess My Number",
     title: "Guess My Number",
@@ -70,7 +80,7 @@ export const PortfolioData = [
     live: "https://marvelous-baklava-f9e655.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
