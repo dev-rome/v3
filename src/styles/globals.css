@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .typed-cursor {
-    @apply text-[#0D4373] dark:text-[#7AB9F0]
-  }
+  @apply text-[#0D4373] dark:text-[#7AB9F0];
+}
