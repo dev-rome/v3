@@ -3,10 +3,10 @@ import Layout from "@/components/Layout";
 import MobileMenu from "@/components/navbar/MobileMenu";
 import Hero from "@/components/hero/Hero";
 import About from "@/components/about/About";
-import Experience from "@/components/experience/Experience";
 import Portfolio from "@/components/portfolio/Portfolio";
-import Testimonial from "@/components/testimonial/Testimonial";
+import Testimonial from "./testimonial/Testimonial";
 import Contact from "@/components/contact/Contact";
+// import Services from "@/components/services/Services";
 
 export default function HomePage() {
   return (
@@ -22,7 +22,7 @@ export default function HomePage() {
         <MobileMenu />
         <Hero />
         <About />
-        <Experience />
+        {/* <Services /> */}
         <Portfolio />
         <Testimonial />
         <Contact />
