@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import MobileMenu from "@/components/navbar/MobileMenu";
 import Hero from "@/components/hero/Hero";
 import About from "@/components/about/About";
+import Experience from "@/components/experience/Experience";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Testimonial from "./testimonial/Testimonial";
 import Contact from "@/components/contact/Contact";
@@ -22,7 +23,7 @@ export default function HomePage() {
         <MobileMenu />
         <Hero />
         <About />
-        {/* <Services /> */}
+        <Experience />
         <Portfolio />
         <Testimonial />
         <Contact />
