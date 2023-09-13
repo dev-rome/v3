@@ -9,7 +9,7 @@ export default function Hero() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current!, {
-      strings: ["Full-Stack", "Freelance", "Front-End"],
+      strings: ["Software Engineer", "Front-End Engineer", "Freelancer"],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 1500,
@@ -35,17 +35,16 @@ export default function Hero() {
           className="text-[#0D4373] dark:text-[#7AB9F0]"
           ref={typedRef}
         ></span>
-        Developer
+        {/* Developer */}
       </h2>
       <p className="md:max-w-3xl text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
-        I have expertise in creating visually appealing websites and intuitive
-        user interfaces. My skills include{" "}
-        <strong>HTML, CSS, JavaScript</strong>, <strong>React/Next.js</strong>,{" "}
-        <strong>Framer Motion</strong>, <strong>MERN</strong>,{" "}
-        <strong>Node.js</strong>, <strong>Python</strong>, and database
-        management with <strong>PostgreSQL</strong> and <strong>MongoDB</strong>
-        . I am experienced in customizing CMS platforms, such as {" "}
-        <strong>WordPress</strong>, for client&apos;s needs.
+        I specialize in frontend development, creating visually appealing
+        websites and user-friendly interfaces using HTML, CSS, JavaScript,
+        TypeScript, and React/Next.js. I also have some experience with backend
+        technologies like Node.js and basic database management with PostgreSQL
+        and MongoDB. Additionally, I excel in customizing CMS platforms like
+        WordPress to meet client needs, showcasing my versatility in web
+        development.
       </p>
 
       <div className="flex gap-5 text-white">

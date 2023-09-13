@@ -7,7 +7,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaStar,
-  FaHandshake,
+  FaCode,
   FaDownload,
 } from "react-icons/fa";
 
@@ -21,7 +21,7 @@ export default function NavMenu() {
   const navigationItems: NavigationItem[] = [
     { title: "Home", icon: <FaHome />, target: "#home" },
     { title: "About", icon: <FaUser />, target: "#about" },
-    // { title: "Services", icon: <FaHandshake />, target: "#services" },
+    { title: "Work", icon: <FaCode />, target: "#work" },
     { title: "Portfolio", icon: <FaBriefcase />, target: "#portfolio" },
     { title: "Testimonial", icon: <FaStar />, target: "#testimonial" },
     { title: "Contact", icon: <FaEnvelope />, target: "#contact" },
