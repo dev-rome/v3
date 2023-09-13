@@ -1,6 +1,5 @@
-import Image from "next/image";
-
 import { FaGithub, FaLink } from "react-icons/fa";
+import Image from "next/image";
 
 interface PortfolioItemProps {
   project: {
@@ -22,7 +21,7 @@ export default function PortfolioItem({ project }: PortfolioItemProps) {
           height={1000}
           src={project.src}
           alt={project.alt}
-          className="transition duration-500 ease-in-out transform group-hover:scale-110 w-full h-full object-cover rounded-2xl"
+          className="transition duration-500 ease-in-out transform group-hover:scale-110"
         />
       </div>
       <div className="absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-70 text-white opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 p-4">

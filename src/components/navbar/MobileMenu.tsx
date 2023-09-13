@@ -5,10 +5,10 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import {
   FaHome,
   FaUser,
-  FaCode,
   FaBriefcase,
   FaStar,
   FaEnvelope,
+  FaHandshake,
 } from "react-icons/fa";
 
 interface NavItem {
@@ -28,10 +28,10 @@ export default function MobileMenu() {
       target: "#about",
       icon: <FaUser size={24} />,
     },
-    {
-      target: "#work",
-      icon: <FaCode size={24} />,
-    },
+    // {
+    //   target: "#services",
+    //   icon: <FaHandshake size={24} />,
+    // },
     {
       target: "#portfolio",
       icon: <FaBriefcase size={24} />,
