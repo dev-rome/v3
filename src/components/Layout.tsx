@@ -1,4 +1,3 @@
-import ThemeToogle from "./ThemeToggle";
 import NavMenu from "./navbar/NavMenu";
 
 interface LayoutProps {
