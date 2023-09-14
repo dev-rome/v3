@@ -9,7 +9,7 @@ export default function Hero() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current!, {
-      strings: ["Full-Stack", "Freelance", "Front-End"],
+      strings: ["Software Engineer", "Freelancer", "Front-End Engineer"],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 1500,
@@ -34,8 +34,7 @@ export default function Hero() {
         <span
           className="text-[#0D4373] dark:text-[#7AB9F0]"
           ref={typedRef}
-        ></span>
-        Developer
+        ></span>  
       </h2>
       <p className="md:max-w-3xl text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
         I have expertise in creating visually appealing websites and intuitive
