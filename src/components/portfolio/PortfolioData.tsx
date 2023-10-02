@@ -1,6 +1,16 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/clock-app.png",
+    alt: "Clock App",
+    title: "Clock App",
+    description:
+      "A web-based clock application built using HTML, CSS, and JavaScript. It automatically sets the time based on the user's location and features a dynamic background that changes to reflect the time of day.",
+    github: "https://github.com/dev-rome/Clock-App",
+    live: "https://chic-churros-64bbb2.netlify.app",
+  },
+  {
+    id: 2,
     src: "/images/little-lemon.png",
     alt: "Little Lemon",
     title: "Little Lemon",
@@ -10,7 +20,7 @@ export const PortfolioData = [
     live: "https://little-lemon-restaurant-eako.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -20,7 +30,7 @@ export const PortfolioData = [
     live: "https://astro-website-v1.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     src: "/images/hbo-stream.png",
     alt: "HBO Stream",
     title: "HBO Stream",
@@ -30,7 +40,7 @@ export const PortfolioData = [
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
