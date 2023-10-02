@@ -5,7 +5,7 @@ export const PortfolioData = [
     alt: "Clock App",
     title: "Clock App",
     description:
-      "A web-based clock application built using HTML, CSS, and JavaScript. It automatically sets the time based on the user's location and features a dynamic background that changes to reflect the time of day.",
+      "A web-based clock application developed using HTML, CSS, JavaScript, and APIs. It seamlessly sets the time based on the user's location and dynamically adjusts the background to reflect the time of day, offering an engaging and informative experience.",
     github: "https://github.com/dev-rome/Clock-App",
     live: "https://chic-churros-64bbb2.netlify.app",
   },
