@@ -41,7 +41,7 @@ const Experience = () => {
 
   return (
     <section id="work" className="pb-32 lg:pb-64">
-      <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2">
+      <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2 font-bold">
         Experience
       </h2>
 

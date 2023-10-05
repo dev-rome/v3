@@ -4,7 +4,7 @@ import { TestimonialData } from "./TestimonialData";
 export default function Testimonial() {
   return (
     <section id="testimonial" className="pb-32 lg:pb-64">
-      <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2">
+      <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2 font-bold">
         Testimonial
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">

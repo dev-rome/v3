@@ -7,7 +7,7 @@ import SelfImage from "/public/images/jh.jpg";
 export default function About() {
   return (
     <section id="about" className="pb-32 lg:pb-64">
-      <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2">
+      <h2 className="text-[#0D4373] dark:text-[#7AB9F0] text-md mb-2 font-bold">
         About Me
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-12">
