@@ -14,14 +14,14 @@ export default function About() {
         <div className="col-span-12 md:col-span-7">
           <p className="text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
             My passion for the web sparked in 2018 when I completed my first
-            course with Codecademy Programming with Python. Completing that
+            course with Codecademy &quot;Programming with Python&quot;. Completing that
             course sparked a passion for learning and growth.
           </p>
           <p className="text-[#212529] dark:text-[#f8f9fa] md:text-lg mb-5">
-            I also finished Udacity course Intro to Programming Nanodegree,
-            three Udemy courses such as The Web Developer Bootcamp, Build
-            Responsive Real-World Websites with HTML and CSS, and Modern React
-            with Redux. In the future, I see myself as a full-stack engineer
+            I also finished Udacity course &quot;Intro to Programming Nanodegree&quot;,
+            three Udemy courses such as &quot;The Web Developer Bootcamp&quot;, &quot;Build
+            Responsive Real-World Websites with HTML and CSS&quot;, and &quot;Modern React
+            with Redux&quot;. In the future, I see myself as a full-stack engineer
             supporting clients and building products that will give back to
             communities.
           </p>
