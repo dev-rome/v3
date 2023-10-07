@@ -22,7 +22,7 @@ export const experiences: ExperienceData[] = [
     date: "February 2023 - April 2023",
     points: [
       "Guided Agile methodology implementation, ensuring on-time project updates through effective communication with senior management and software engineers.",
-      "CCollaborated seamlessly with cross-functional teams to streamline processes, which significantly improved project delivery efficiency and contributed to successful project outcomes.",
+      "Collaborated seamlessly with cross-functional teams to streamline processes, significantly improving project delivery efficiency and contributing to successful project outcomes.",
     ],
   },
   {
