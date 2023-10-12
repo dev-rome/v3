@@ -1,38 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots
+<img width="1440" alt="Screenshot 2023-10-12 at 10 16 44 AM" src="https://github.com/dev-rome/v3/assets/84602714/081d745f-334a-4925-a71a-00a58b447eed">
+<img width="1440" alt="Screenshot 2023-10-12 at 10 16 58 AM" src="https://github.com/dev-rome/v3/assets/84602714/79fe2eba-ea14-490c-9a76-23435f63a7e8">
+<img width="1440" alt="Screenshot 2023-10-12 at 10 17 06 AM" src="https://github.com/dev-rome/v3/assets/84602714/36385411-114f-4698-879b-c2fe6dbfd36c">
+<img width="1440" alt="Screenshot 2023-10-12 at 10 17 19 AM" src="https://github.com/dev-rome/v3/assets/84602714/af4ad8f3-1c6f-4181-875d-cf8474607bda">
+<img width="1440" alt="Screenshot 2023-10-12 at 10 17 26 AM" src="https://github.com/dev-rome/v3/assets/84602714/6d9c46be-815d-453d-a17c-1966d800d227">
+<img width="1440" alt="Screenshot 2023-10-12 at 10 17 35 AM" src="https://github.com/dev-rome/v3/assets/84602714/2e276239-371f-4ec7-837b-686b0046e89b">
+<img width="1440" alt="Screenshot 2023-10-12 at 10 17 43 AM" src="https://github.com/dev-rome/v3/assets/84602714/fc185f10-c47a-48b9-8a1d-0d59e59b4e12">
+<img width="1440" alt="Screenshot 2023-10-12 at 10 17 51 AM" src="https://github.com/dev-rome/v3/assets/84602714/dec5e83e-e582-4c5a-a371-6573c9eabcec">
