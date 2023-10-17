@@ -5,7 +5,7 @@ export const PortfolioData = [
     alt: "Dictionary-Web App",
     title: "Dictionary-Web App",
     description:
-      "Frontend Mentor Dictionary Web App using HTML, CSS, and JavaScript, seamlessly integrating the Free Dictionary API to provide users with quick and reliable word definitions",
+      "Frontend Mentor Dictionary Web App using HTML, CSS, and JavaScript, seamlessly integrating the Free Dictionary API to provide users with quick and reliable word definitions.",
     github: "https://github.com/dev-rome/Dictionary-Web-App",
     live: "https://inquisitive-biscochitos-13dfd2.netlify.app/",
   },
