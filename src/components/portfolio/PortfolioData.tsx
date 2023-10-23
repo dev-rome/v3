@@ -1,6 +1,16 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/weather-app.png",
+    alt: "Weather App",
+    title: "Weather App",
+    description:
+      "Weather App: Built with Next.js, TypeScript, Tailwind CSS, and the Weatherbit API, providing users with quick and accurate weather information.",
+    github: "https://github.com/dev-rome/Weather-App",
+    live: "https://weather-app-two-green-70.vercel.app/",
+  },
+  {
+    id: 2,
     src: "/images/dictionary-app.png",
     alt: "Dictionary-Web App",
     title: "Dictionary-Web App",
@@ -10,7 +20,7 @@ export const PortfolioData = [
     live: "https://inquisitive-biscochitos-13dfd2.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     src: "/images/ip-tracker.png",
     alt: "IP-Tracker",
     title: "IP-Tracker",
@@ -20,7 +30,7 @@ export const PortfolioData = [
     live: "https://ip-address-tracker-inky-ten.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     src: "/images/clock-app.png",
     alt: "Clock App",
     title: "Clock App",
@@ -30,7 +40,7 @@ export const PortfolioData = [
     live: "https://chic-churros-64bbb2.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     src: "/images/little-lemon.png",
     alt: "Little Lemon",
     title: "Little Lemon",
@@ -40,7 +50,7 @@ export const PortfolioData = [
     live: "https://little-lemon-restaurant-eako.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -50,7 +60,7 @@ export const PortfolioData = [
     live: "https://astro-website-v1.netlify.app",
   },
   {
-    id: 6,
+    id: 7,
     src: "/images/hbo-stream.png",
     alt: "HBO Stream",
     title: "HBO Stream",
@@ -60,7 +70,7 @@ export const PortfolioData = [
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
   {
-    id: 7,
+    id: 8,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
