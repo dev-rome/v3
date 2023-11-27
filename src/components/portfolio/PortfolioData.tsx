@@ -5,7 +5,7 @@ export const PortfolioData = [
     alt: "Class Connect",
     title: "Class Connect",
     description:
-      " a virtual classroom platform that allows students to engage with classmates and teachers, fostering meaningful friendships. Built with React, JavaScript, Tailwind CSS, MongoDB, Express, Node.js, and VideoSDK.",
+      "A virtual classroom platform that allows students to engage with classmates and teachers, fostering meaningful friendships. Built with React, JavaScript, Tailwind CSS, MongoDB, Express, Node.js, and VideoSDK.",
     github: "https://github.com/dev-rome/classroom-connect-mern/tree/main",
     live: "https://classroomconnect-frontend.onrender.com/",
   },
