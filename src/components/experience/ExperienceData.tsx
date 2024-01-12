@@ -7,9 +7,19 @@ export interface ExperienceData {
 
 export const experiences: ExperienceData[] = [
   {
+    title: "Software Engineer Mentee",
+    company_name: "Onramp",
+    date: "November 2023 - Present",
+    points: [
+      "Collaborated with a UI/UX team and a senior engineer to boost our startup's online presence, brand recognition, and user engagement.",
+      "Initiate designing and developing beautiful user interfaces and dynamic web components using React.js and Tailwind CSS, optimizing the user experience across all devices.",
+      "Implemented Astro and Netlify, improving website performance with faster page load times and enhanced user satisfaction.",
+    ],
+  },
+  {
     title: "Front-End Developer",
     company_name: "Timber & Hatchet",
-    date: "January 2023 - Present",
+    date: "January 2023 - October 2023",
     points: [
       "Collaborated with a UI/UX team and a senior engineer to boost our startup's online presence, brand recognition, and user engagement.",
       "Initiate designing and developing beautiful user interfaces and dynamic web components using React.js and Tailwind CSS, optimizing the user experience across all devices.",
@@ -31,8 +41,8 @@ export const experiences: ExperienceData[] = [
     date: "January 2018 - Present",
     points: [
       "Developed 15+ websites using HTML, CSS, JavaScript, and WordPress to enhance user engagement and increase conversion rates.",
-      "Defined project parameters for on-time, on-budget delivery through effective client communication.",
-      "Enhanced revenue, trust, and usability through secure payment gateways and website documentation.",
+      "Ensured on-time, on-budget delivery of projects by effectively communicating with clients and defining project parameters, resulting in a 95% client satisfaction rate.",
+      "Improved revenue and trust by implementing secure payment gateways and providing detailed website documentation, leading to a 10% increase in sales and enhanced user experience.",
     ],
   },
 ];
