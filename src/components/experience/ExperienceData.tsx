@@ -11,9 +11,9 @@ export const experiences: ExperienceData[] = [
     company_name: "Onramp",
     date: "November 2023 - Present",
     points: [
-      "Collaborated with a UI/UX team and a senior engineer to boost our startup's online presence, brand recognition, and user engagement.",
-      "Initiate designing and developing beautiful user interfaces and dynamic web components using React.js and Tailwind CSS, optimizing the user experience across all devices.",
-      "Implemented Astro and Netlify, improving website performance with faster page load times and enhanced user satisfaction.",
+      "Prioritizing code quality and readability for professional growth.",
+      "Effective career development through personal branding and networking.",
+      "Mastering software engineering interviews and fostering a feedback culture.",
     ],
   },
   {
