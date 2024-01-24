@@ -21,10 +21,9 @@ const ExperienceCard = ({ experience }: { experience: ExperienceData }) => {
         borderRight: `7px solid  ${isDarkMode ? "#7AB9F0" : "#0D4373"}`,
       }}
       iconStyle={{ background: isDarkMode ? "#7AB9F0" : "#0D4373" }}
-      date={experience.date}
     >
       <>
-        <h3 className="text-white font-bold">{experience.title}</h3>
+        <h3 className="text-white font-bold">{experience.title} - <span>{experience.date}</span></h3>
         <p className="font-semibold">{experience.company_name}</p>
       </>
       <ul className="mt-5 list-disc ml-5 space-y-2">
