@@ -7,6 +7,18 @@ export interface ExperienceData {
 
 export const experiences: ExperienceData[] = [
   {
+    title: "Jr. Developer (Frontend)",
+    company_name: "The Hero Company",
+    date: "March 2024 - Present",
+    points: [
+      "Achieved a 100% completion rate of assigned weekly priorities for the past month, demonstrating consistent efficiency and reliability.",
+      "Developed and maintained responsive websites using HTML, CSS, JavaScript, and automated tasks with Gulp; optimized web interfaces through A/B split testing, technical verifications, and payment testing.",
+      "Managed backend data storage solutions with MySQL Workbench to support data-driven website functionality.",
+      "Participated in team meetings and code reviews, promoting collaborative decision-making and continuous improvement."
+    ],
+  },
+
+  {
     title: "Software Engineer Mentee",
     company_name: "Onramp",
     date: "November 2023 - Present",
@@ -16,6 +28,7 @@ export const experiences: ExperienceData[] = [
       "Mastering software engineering interviews and fostering a feedback culture.",
     ],
   },
+
   {
     title: "Front-End Developer",
     company_name: "Timber & Hatchet",
@@ -26,6 +39,7 @@ export const experiences: ExperienceData[] = [
       "Implemented Astro and Netlify, improving website performance with faster page load times and enhanced user satisfaction.",
     ],
   },
+
   {
     title: "Co-Lead Developer",
     company_name: "Tech Fleet Community DAO - Kadet Wallet",
@@ -35,6 +49,7 @@ export const experiences: ExperienceData[] = [
       "Collaborated seamlessly with cross-functional teams to streamline processes, significantly improving project delivery efficiency and contributing to successful project outcomes.",
     ],
   },
+
   {
     title: "Freelance Web Developer",
     company_name: "Freelance Web Developer (Self-Employed)",
