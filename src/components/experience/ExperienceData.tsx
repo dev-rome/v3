@@ -21,7 +21,7 @@ export const experiences: ExperienceData[] = [
   {
     title: "Software Engineer Mentee",
     company_name: "Onramp",
-    date: "November 2023 - Present",
+    date: "November 2023 - February 2024",
     points: [
       "Prioritizing code quality and readability for professional growth.",
       "Effective career development through personal branding and networking.",
