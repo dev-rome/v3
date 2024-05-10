@@ -1,6 +1,28 @@
 export const PortfolioData = [
   {
     id: 1,
+    src: "/images/toast-component.png",
+    alt: "Toast Component",
+    title: "Toast Component",
+    description:
+      "A toast message is a popular UI element designed to provide brief and unobtrusive notifications to users. It appears on the screen for a short period, resembling the action of toast popping out of a toaster. This functionality ensures that users receive important updates without disrupting their interaction with the application.",
+    github: "https://github.com/dev-rome/project-toast",
+    live: "https://magnificent-bombolone-d6022d.netlify.app/",
+  },
+
+  {
+    id: 2,
+    src: "/images/word-game.png",
+    alt: "Word Game",
+    title: "Word Game",
+    description:
+      "Word Game is a clone of the popular Wordle game, offering players a fun and challenging word puzzle experience where they guess a hidden word within a limited number of attempts.",
+    github: "https://github.com/dev-rome/project-wordle",
+    live: "https://joyful-capybara-6b00e8.netlify.app/",
+  },
+
+  {
+    id: 3,
     src: "/images/class-connect.png",
     alt: "Class Connect",
     title: "Class Connect",
@@ -9,8 +31,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/classroom-connect-mern/tree/main",
     live: "https://classroomconnect-frontend.onrender.com/",
   },
+
   {
-    id: 2,
+    id: 4,
     src: "/images/weather-app.png",
     alt: "Weather App",
     title: "Weather App",
@@ -19,8 +42,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/Weather-App",
     live: "https://weather-app-two-green-70.vercel.app/",
   },
+
   {
-    id: 3,
+    id: 5,
     src: "/images/dictionary-app.png",
     alt: "Dictionary-Web App",
     title: "Dictionary-Web App",
@@ -29,8 +53,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/Dictionary-Web-App",
     live: "https://inquisitive-biscochitos-13dfd2.netlify.app/",
   },
+
   {
-    id: 4,
+    id: 6,
     src: "/images/ip-tracker.png",
     alt: "IP-Tracker",
     title: "IP-Tracker",
@@ -39,8 +64,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/IP-Address-Tracker",
     live: "https://ip-address-tracker-inky-ten.vercel.app/",
   },
+
   {
-    id: 5,
+    id: 7,
     src: "/images/clock-app.png",
     alt: "Clock App",
     title: "Clock App",
@@ -49,8 +75,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/Clock-App",
     live: "https://chic-churros-64bbb2.netlify.app",
   },
+
   {
-    id: 6,
+    id: 8,
     src: "/images/little-lemon.png",
     alt: "Little Lemon",
     title: "Little Lemon",
@@ -59,8 +86,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/Little-Lemon-restaurant",
     live: "https://little-lemon-restaurant-eako.vercel.app/",
   },
+
   {
-    id: 7,
+    id: 9,
     src: "/images/timber&hatchet.png",
     alt: "Timber and Hatchet",
     title: "Timber and Hatchet",
@@ -69,8 +97,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/Website-Project-v1",
     live: "https://astro-website-v1.netlify.app",
   },
+
   {
-    id: 8,
+    id: 10,
     src: "/images/hbo-stream.png",
     alt: "HBO Stream",
     title: "HBO Stream",
@@ -79,8 +108,9 @@ export const PortfolioData = [
     github: "https://github.com/dev-rome/HBO-Stream",
     live: "https://aesthetic-alpaca-95ce00.netlify.app",
   },
+
   {
-    id: 9,
+    id: 11,
     src: "/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
